@@ -1,0 +1,18 @@
+package org.telegram.messenger;
+
+import org.telegram.tgnet.TLRPC$EncryptedChat;
+
+public final class -$$Lambda$SecretChatHelper$UeLgl-NG4gDOs_Y4sJhukTdyyjM implements Runnable {
+    public -$$Lambda$SecretChatHelper$UeLgl-NG4gDOs_Y4sJhukTdyyjM(SecretChatHelper arg1, int arg2, EncryptedChat arg3, int arg4) {
+        super();
+        this.f$0 = arg1;
+        this.f$1 = arg2;
+        this.f$2 = arg3;
+        this.f$3 = arg4;
+    }
+
+    public final void run() {
+        SecretChatHelper.lambda$resendMessages$14(this.f$0, this.f$1, this.f$2, this.f$3);
+    }
+}
+

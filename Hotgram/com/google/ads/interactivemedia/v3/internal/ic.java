@@ -1,0 +1,21 @@
+package com.google.ads.interactivemedia.v3.internal;
+
+import com.google.ads.interactivemedia.v3.api.AdDisplayContainer;
+import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
+
+public class ic extends iq implements AdDisplayContainer {
+    private VideoAdPlayer a;
+
+    public ic() {
+        super();
+    }
+
+    public VideoAdPlayer getPlayer() {
+        return this.a;
+    }
+
+    public void setPlayer(VideoAdPlayer arg1) {
+        this.a = arg1;
+    }
+}
+
