@@ -1,4 +1,4 @@
-# TThird-party Telegram Apps spy
+# Third-party Telegram Apps spy
 
 ### Hotgram:
 
